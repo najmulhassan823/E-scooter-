@@ -808,7 +808,6 @@ print(performance)
 importance$Construct <- trimws(as.character(importance$Construct))
 performance$Construct <- trimws(as.character(performance$Construct))
 
-# Merge again
 ipma_table <- merge(importance, performance, by = "Construct", all.x = TRUE)
 print(ipma_table)
 
